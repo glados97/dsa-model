@@ -36,7 +36,7 @@ cudnn.benchmark = True  # set to true only if inputs to model are fixed size; ot
 
 def main():
     start_epoch = 0
-    numepoch = 1
+    numepoch = 10
 
     # Load word map into memory
     word_map_path = "./preprocess_out"
@@ -209,8 +209,6 @@ def main():
                 json.dump(("bleu4 score:", bleu4), f)
 
             print("Validation Loss All: ", val_loss_all)
-            with open(('results/results%s.json'%(epoch)), 'a') as f:
-                json.dump(("Lost:", val_loss_all), f)
 
         # Save Checkpoint
         save_checkpoint(encoder, decoder, decoder_opt, dataset, epoch, 0, True)
