@@ -10,10 +10,10 @@ Flickr 8k & 30K base on fuqichen implementation (https://github.com/fuqichen1998
 
 ## Requirements
 - **DATA zip file: https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing**
-- Check each implementation README.md
+- Check each implementation README.md of each dataset
 
 ### Installation 
-- Check each implementation README.md
+- Check each implementation README.md of each dataset
 
 ## References
 
