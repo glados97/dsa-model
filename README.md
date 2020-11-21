@@ -6,7 +6,7 @@ Flickr 8k & 30K base on fuqichen implementation (https://github.com/fuqichen1998
 - CNN Layer Model: VGG16 (default)
 - RNN Layer Model: LSTM (default)
 - Datasets: MS-COCO (default), Flickr8k & Flickr30k
-- Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr (Microsoft COCO Caption Evaluation by Tsung-Yi Li implementation (https://github.com/tylin/coco-caption))
+- Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr
 
 ## Requirements
 - **DATA zip file: https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing**
