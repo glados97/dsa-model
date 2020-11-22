@@ -1,11 +1,11 @@
 # DSA-Model - MSCOCO
 
 Model base on Show, Attend and Tell: Neural Image Caption Generation with Visual Attentiont, Soft Attention.
-Mscoco model base on coldmanck implementation (https://github.com/coldmanck/show-attend-and-tell)
+Mscoco model base on coldmanck [implementation](https://github.com/coldmanck/show-attend-and-tell)
 - CNN Layer Model: VGG16 (default)
 - RNN Layer Model: LSTM (default)
 - Dataset: MS-COCO (default)
-- Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr (Microsoft COCO Caption Evaluation by Tsung-Yi Li implementation (https://github.com/tylin/coco-caption))
+- Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr (Microsoft COCO Caption Evaluation by Tsung-Yi Li [implementation](https://github.com/tylin/coco-caption))
 
 ## Requirements
 - Python 3.6 & Pip
