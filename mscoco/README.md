@@ -23,7 +23,7 @@ Mscoco model base on coldmanck implementation (https://github.com/coldmanck/show
 
 ### Installation 
 ```
- cd nic-model
+ cd dsa-model/mscoco
  pip install --user --upgrade tensorflow  
  pip install numpy
  pip install nltk
