@@ -62,9 +62,9 @@ Model base on Show, Attend and Tell: Neural Image Caption Generation with Visual
 │
 ├── results/ - default folder for results, saves on json
 │   
-├── test_caption_out/ -
+├── test_caption_out/ - checks with examples final process
 │
-├── attentionmodel.py - 
+├── attentionmodel.py - helper of training class
 │
 ├── data_process.py - configure & donwload all caption datasets
 │
