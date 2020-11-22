@@ -1,4 +1,4 @@
-# DSA-Model
+# DSA-Model - MSCOCO
 
 Model base on Show, Attend and Tell: Neural Image Caption Generation with Visual Attentiont, Soft Attention.
 Mscoco model base on coldmanck implementation (https://github.com/coldmanck/show-attend-and-tell)
