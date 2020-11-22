@@ -12,7 +12,7 @@ Mscoco model base on coldmanck implementation (https://github.com/coldmanck/show
 - Tensorflow 1.14 (for more information check: https://www.tensorflow.org/install/pip?hl=es-419&lang=python3#windows)
 - Numpy 1.19.2
 - NLTK 3.5
-- tqmd 4.50.2
+- tqdm 4.50.2
 - Pandas 1.1.3
 - Pycocotools 2.0.2
 - Pickle5 0.0.11
