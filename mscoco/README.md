@@ -9,7 +9,7 @@ Mscoco model base on coldmanck implementation (https://github.com/coldmanck/show
 
 ## Requirements
 - Python 3.6 & Pip
-- Tensorflow 1.14 (for more information check: https://www.tensorflow.org/install/pip?hl=es-419&lang=python3#windows)
+- Tensorflow 1.14 (for more information check [here](https://www.tensorflow.org/install/pip?hl=es-419&lang=python3#windows))
 - Numpy 1.19.2
 - NLTK 3.5
 - tqdm 4.50.2
@@ -36,7 +36,7 @@ Mscoco model base on coldmanck implementation (https://github.com/coldmanck/show
 ```
 
 ## Set Up
-- Download & extract mscoco `train2014`, `val2014` & `annotations` (the images could be download from [here] https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing)
+- Download & extract mscoco `train2014`, `val2014` & `annotations` (the images could be download from [here](https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing))
 - Once download, set `train2014` images in the folder `train/images`, and put the file `captions_train2014.json` in the folder `train`; And the `val2014` images in the folder `val/images`, and put the file `captions_val2014.json` in the folder `val`.
 - Download the pretrained VGG16 net [here](https://app.box.com/s/idt5khauxsamcg3y69jz13w6sc6122ph)
 - Run python `config.py`
@@ -95,5 +95,5 @@ python main.py --phase=eval \
 
 ## References
 
-* coldmanck Python 3 Version of Show, Attend and Tell using Tensorflow repo (https://github.com/coldmanck/show-attend-and-tell)
-* Lin, Tsung-Yi Microsoft COCO Caption Evaluation repo (https://github.com/tylin/coco-caption)
+* coldmanck Python 3 Version of Show, Attend and Tell using Tensorflow [repo](https://github.com/coldmanck/show-attend-and-tell)
+* Lin, Tsung-Yi Microsoft COCO Caption Evaluation [repo](https://github.com/tylin/coco-caption)
