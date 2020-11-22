@@ -5,7 +5,7 @@ Mscoco model base on coldmanck implementation (https://github.com/coldmanck/show
 Flickr 8k & 30K base on fuqichen implementation (https://github.com/fuqichen1998/eecs442-final-project-show-and-tell)
 - CNN Layer Model: VGG16 (default)
 - RNN Layer Model: LSTM (default)
-- Datasets: MS-COCO (default), Flickr8k & Flickr30k
+- Datasets: MS-COCO, Flickr8k & Flickr30k
 - Scoring: BLEU_1, BLEU_2, BLEU_3, BLEU_4, METEOR, ROUGE_L, CIDEr
 
 ## Requirements
