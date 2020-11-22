@@ -55,7 +55,7 @@ python main.py --phase=eval \
     --model_file='./models/xxxxxx.npy' \
     --beam_size=3
 ```
-- **NOTE: check the model to evaluate depending on the epoch **
+- **NOTE: check the model to evaluate depending on the epoch**
 
 ## Structure
 ```
