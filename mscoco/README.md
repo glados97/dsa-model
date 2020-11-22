@@ -36,7 +36,7 @@ Mscoco model base on coldmanck implementation (https://github.com/coldmanck/show
 ```
 
 ## Set Up
-- Download & extract mscoco `train2014`, `val2014` & `annotations` (the images could be download from here: https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing)
+- Download & extract mscoco `train2014`, `val2014` & `annotations` (the images could be download from [here] https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing)
 - Once download, set `train2014` images in the folder `train/images`, and put the file `captions_train2014.json` in the folder `train`; And the `val2014` images in the folder `val/images`, and put the file `captions_val2014.json` in the folder `val`.
 - Download the pretrained VGG16 net [here](https://app.box.com/s/idt5khauxsamcg3y69jz13w6sc6122ph)
 - Run python `config.py`
