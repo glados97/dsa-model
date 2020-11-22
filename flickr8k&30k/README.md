@@ -1,6 +1,6 @@
 # DSA-Model - FLICKR 8K & 30K
 
-Model base on Show, Attend and Tell: Neural Image Caption Generation with Visual Attentiont, Soft Attention. Flickr 8k & 30K base on fuqichen implementation (https://github.com/fuqichen1998/eecs442-final-project-show-and-tell)
+Model base on Show, Attend and Tell: Neural Image Caption Generation with Visual Attentiont, Soft Attention. Flickr 8k & 30K base on fuqichen [implementation](https://github.com/fuqichen1998/eecs442-final-project-show-and-tell)
 - CNN Layer Model: VGG16 (default)
 - RNN Layer Model: LSTM (default)
 - Datasets: Flickr8k (default) & Flickr30k
@@ -38,7 +38,7 @@ Model base on Show, Attend and Tell: Neural Image Caption Generation with Visual
  ```
  
  ## Set Up
-- Download & extract `flickr8k or flickr30k` (the images could be download from here: https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing)
+- Download & extract `flickr8k or flickr30k` (the images could be download from [here](https://drive.google.com/file/d/16jNwTdwtFXoW_gsxH87TntWh6ICcFzIj/view?usp=sharing))
 - Once download, set `flickr8k or flickr30k` images in the folder `img_train`
 - `Flickr8k` is the default dataset, of need it it can be change to `Flickr30k` only by changing all the settings into `Flickr30k`
 - Run `python dataset.py` & `python data_process.py` to configure all caption datasets
@@ -88,5 +88,5 @@ Model base on Show, Attend and Tell: Neural Image Caption Generation with Visual
 
 ## References
 
-* Kevin Xu, et al. Show, Attend and Tell: Neural Image Caption Generation with Visual Attention (https://arxiv.org/pdf/1502.03044.pdf)
-* fuqichen EECS442 Final Project Winter 2019 repo (https://github.com/fuqichen1998/eecs442-final-project-show-and-tell)
+* Kevin Xu, et al. Show, Attend and Tell: Neural Image Caption Generation with Visual Attention [here](https://arxiv.org/pdf/1502.03044.pdf)
+* fuqichen EECS442 Final Project Winter 2019 [repo](https://github.com/fuqichen1998/eecs442-final-project-show-and-tell)
